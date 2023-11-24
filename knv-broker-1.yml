@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: confluent
+  namespace: default
   name: kafka-broker-deployment
 spec:
   replicas: 1
